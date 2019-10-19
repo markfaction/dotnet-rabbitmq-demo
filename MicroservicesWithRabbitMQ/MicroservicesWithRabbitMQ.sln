@@ -15,9 +15,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9DA819AF-C76B-492D-AF50-F046CEECB3DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRMQ.Domain.Core", "MicroRMQ.Domain.Core\MicroRMQ.Domain.Core.csproj", "{1553A15D-A906-4CAD-B0B3-B2F558CE090D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1553A15D-A906-4CAD-B0B3-B2F558CE090D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1553A15D-A906-4CAD-B0B3-B2F558CE090D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1553A15D-A906-4CAD-B0B3-B2F558CE090D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1553A15D-A906-4CAD-B0B3-B2F558CE090D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1553A15D-A906-4CAD-B0B3-B2F558CE090D} = {6B74B843-5311-4A81-A39C-66C6E289B53F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {747996B3-D35A-4ECA-8398-18A5FB471C14}
